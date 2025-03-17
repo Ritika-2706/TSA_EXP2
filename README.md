@@ -3,22 +3,23 @@
 
 ### Date:
 
-### AIM:
+## AIM:
 To Implement Linear and Polynomial Trend Estiamtion Using Python.
 
-### ALGORITHM:
-Import necessary libraries (NumPy, Matplotlib)
+## ALGORITHM:
+1. Import necessary libraries (NumPy, Matplotlib)
 
-Load the dataset
+2. Load the dataset
 
-Calculate the linear trend values using least square method
+3. Calculate the linear trend values using least square method
 
-Calculate the polynomial trend values using least square method
+4. Calculate the polynomial trend values using least square method
 
-End the program
-### PROGRAM:
+5. End the program
 
-A - LINEAR TREND ESTIMATION
+## PROGRAM:
+
+### LINEAR TREND ESTIMATION
 ~~~
 import pandas as pd
 import numpy as np
@@ -43,7 +44,7 @@ linear_model.fit(X, y)
 linear_trend = linear_model.predict(X)
 
 ~~~
-B- POLYNOMIAL TREND ESTIMATION
+### POLYNOMIAL TREND ESTIMATION
 ~~~
 # Polynomial trend estimation (degree 2 for quadratic)
 degree = 2
@@ -64,17 +65,17 @@ plt.title('Linear and Polynomial Trend Estimation')
 plt.legend()
 plt.show()
 ~~~
-### OUTPUT
-A - LINEAR TREND ESTIMATION
+## OUTPUT
+### LINEAR TREND ESTIMATION
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/75e77c8b-2f81-4ad1-864f-231cb0275d63">
 
 
 
 
-B - POLYNOMIAL TREND ESTIMATION
+### POLYNOMIAL TREND ESTIMATION
 
 <img width="511" alt="image" src="https://github.com/user-attachments/assets/c898564e-4491-4d73-8062-011b853f7022">
 
-### RESULT:
+## RESULT:
 Thus the python program for linear and Polynomial Trend Estiamtion has been executed successfully.
